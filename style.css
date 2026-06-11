@@ -17,6 +17,11 @@ body {
   line-height: 1.7;
 }
 
+.top-accent {
+  height: 8px;
+  background: linear-gradient(90deg, #8b5e3c, #c9a27e, #efe5db);
+}
+
 .container {
   max-width: 880px;
   margin: 50px auto;
@@ -59,6 +64,7 @@ nav a {
   padding: 8px 12px;
   border-radius: 999px;
   transition: all 0.2s ease;
+  border-bottom: none;
 }
 
 nav a:hover {
@@ -78,6 +84,10 @@ main h2 {
   color: #3c2818;
   border-bottom: 1px solid var(--border);
   padding-bottom: 6px;
+}
+
+section {
+  margin-bottom: 30px;
 }
 
 p {
