@@ -115,6 +115,19 @@ li {
   margin-bottom: 10px;
 }
 
+.course-list li {
+  margin-bottom: 16px;
+}
+
+.course-list strong {
+  display: block;
+}
+
+.course-list span {
+  display: block;
+  color: var(--muted);
+}
+
 em {
   color: #354739;
 }
